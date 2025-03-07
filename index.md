@@ -3,6 +3,9 @@ layout: default
 title: Sociolinguistic Lab
 ---
 
+<link rel="stylesheet" href="styles.css">
+
+
 # Welcome to the Sociolinguistic Lab
 We study language variation, identity, and social meaning. Our research explores how linguistic features interact with social factors.
 
