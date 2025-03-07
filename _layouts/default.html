@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/publications">Publications</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
+<!-- Header with Navigation -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/research">Research</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/team">Team</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Main content -->
+<main>
+  <div class="container">
     {{ content }}
-  </main>
+  </div>
+</main>
 
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} Sociolinguistics Laboratory. All Rights Reserved.</p>
-  </footer>
+<!-- Footer -->
+<footer>
+  <p>Contact: <a href="mailto:your@email.com">your@email.com</a></p>
+  <p>Follow us on <a href="#">Twitter</a> | <a href="#">GitHub</a></p>
+</footer>
+
 </body>
 </html>
-
