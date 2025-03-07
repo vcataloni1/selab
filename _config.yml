@@ -13,6 +13,30 @@ description: "Research on language variation and social meaning"
 baseurl: "/selab"
 url: "https://vcataloni1.github.io"
 
+<!-- Navigation Bar -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#people">Peoplet</a></li>
+    <li><a href="#research">Research</a></li>
+  </ul>
+</nav>
+
+<a id="home"></a>
+# Welcome to My Website
+
+This is where I introduce my website.
+
+<a id="about"></a>
+## About
+
+Here’s a little about my project.
+
+<a id="contact"></a>
+## Contact
+
+Feel free to reach out!
+
 # Navigation links
 nav:
   - title: "Home"
