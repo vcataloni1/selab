@@ -1,5 +1,5 @@
-title: "Sociolinguistic Lab"
-description: "Research on language variation and social meaning"
+title: "Scott Schwenter's Sociolinguistic Lab"
+description: "Research on language variation and pragmatics"
 baseurl: "/selab"  # IMPORTANT: Matches your repository name
 url: "https://vcataloni1.github.io"
 
@@ -9,7 +9,7 @@ plugins:
   ---
 # Jekyll Site Configuration
 title: "Sociolinguistic Lab"
-description: "Research on language variation and social meaning"
+description: "Research on language variation and pragmatics"
 baseurl: "/selab"
 url: "https://vcataloni1.github.io"
 
