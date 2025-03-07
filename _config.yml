@@ -6,3 +6,85 @@ url: "https://vcataloni1.github.io"
 theme: minima  # Or another Jekyll theme
 plugins:
   - jekyll-remote-theme
+  ---
+# Jekyll Site Configuration
+title: "Sociolinguistic Lab"
+description: "Research on language variation and social meaning"
+baseurl: "/selab"
+url: "https://vcataloni1.github.io"
+
+# Navigation links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "People"
+    url: "/people"
+  - title: "Research"
+    url: "/research"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Contact"
+    url: "/contact"
+
+# Theme & Plugins
+theme: minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+---
+
+<!-- Sidebar Layout -->
+<style>
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    background: #ddd;
+}
+</style>
+
+<div class="sidebar">
+    <h2>Sociolinguistic Lab</h2>
+    <a href="/">Home</a>
+    <a href="/people">People</a>
+    <a href="/research">Research</a>
+    <a href="/publications">Publications</a>
+    <a href="/contact">Contact</a>
+</div>
+
+<div class="content">
+    <h1>Welcome to the Sociolinguistic Lab</h1>
+    <p>We study language variation, identity, and social meaning. Our research explores how linguistic features interact with social factors.</p>
+    
+    <h2>Recent Updates</h2>
+    <ul>
+        <li>New paper on sociophonetic variation published!</li>
+        <li>Upcoming talk at [Conference Name]</li>
+    </ul>
+</div>
+
