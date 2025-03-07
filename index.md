@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sociolinguistic Lab
+title: Scott Schwenter's Sociolinguistic Lab
 ---
 
 <link rel="stylesheet" href="styles.css">
@@ -10,5 +10,6 @@ title: Sociolinguistic Lab
 We study language variation and pragmatics
 
 ## Recent Updates
-- New paper on sociophonetic variation published!
-- Upcoming talk at [Conference Name]
+- Current projects
+- Upcoming talks
+- Lab Members
