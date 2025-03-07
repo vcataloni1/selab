@@ -1,7 +1,3 @@
----
-layout: default
-title: Home
----
 
 # Welcome to the Sociolinguistic Lab
 
