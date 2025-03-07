@@ -1,0 +1,65 @@
+---
+# Jekyll Site Configuration
+title: "Sociolinguistic Lab"
+description: "Research on language variation and social meaning"
+baseurl: ""
+url: "https://your-github-username.github.io/lab-website"
+
+# Navigation links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "People"
+    url: "/people"
+  - title: "Research"
+    url: "/research"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Contact"
+    url: "/contact"
+
+# Theme (use a simple Jekyll theme or customize CSS)
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+---
+
+<!-- Home Page -->
+## Welcome to the Sociolinguistic Lab
+
+We study language variation, identity, and social meaning. Our research explores how linguistic features interact with social factors.
+
+## Recent Updates
+- New paper on sociophonetic variation published!
+- Upcoming talk at [Conference Name]
+
+<!-- People Page -->
+## People
+
+### Lab Director
+Dr. [Your Name] - [Bio & Research Interests]
+
+### Research Team
+- **[Member Name]** – [Area of Focus]
+- **[Member Name]** – [Area of Focus]
+
+<!-- Research Page -->
+## Research
+
+### Ongoing Projects
+- **Project Title** – Brief description.
+- **Project Title** – Brief description.
+
+<!-- Publications Page -->
+## Publications
+
+- [Paper Title](#) – *Journal Name, Year.*
+- [Paper Title](#) – *Conference Proceedings, Year.*
+
+<!-- Contact Page -->
+## Contact
+
+📍 [University Name]  
+✉️ [your-email@university.edu]  
+🐦 [Twitter Handle]  
+🔗 [GitHub Repository](https://github.com/your-github-username/lab-website)
